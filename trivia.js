@@ -1,12 +1,12 @@
 const Discord = require('discord.js');
 var client = new Discord.Client();
 var bot = new Discord.Client();
-client.login("DISCORD_USER_TOKEN_HERE", output);
-bot.login("BOT_TOKEN_HERE", output);
-var hqchannels = ['450174797780090901', '446444693065039882','453228023240458250'];
+client.login("NzEwMzg5NTgwNDk0NTM2NzE0.Xr1fxw.toQYBV_MzpXK1KFxcHtLK90bsuw" , output);
+bot.login("NzEwMzk1MDY1MzUyMTkyMDIx.Xr5tfg.1sdoPgNe9-u-E-ibLuQSI17iamA", output);
+var hqchannels = ['710787129986252831', '710671941891129354','667084471924949003'];
 var cschannels = ['447178094801977364', '446444804663148545','453228069675597824'];
 var jrchannels = ['449398646857924608','446448343464411136','453228140282511381'];
-var outputchannel = 'OUTPUT_CHANNEL_ID_HERE';
+var outputchannel = '710787129986252831';
 
 function output(error, token) {
         if (error) {
